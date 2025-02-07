@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de tabela em HTML</title>
+</head>
+<body>
+    <h1>Exemplo de tabela em HTML</h1>    
+    <table>
+        <caption> Tabela de produtos  </caption>        <!--nome dsa tabela-->
+            <thead>                                     <!-- Faz uma limitação para colocar e identicar os itens--> 
+            <tr>
+                <th>ID</th>                             <!-- faz identificação para os produtos em forma de colunas-->
+                <th>PRODUTO</th>
+                <th>PREÇO</th>
+                <th>QUANTIDADE</th>
+            </tr> 
+            </thead>
+                <tbody>                                 <!-- faz o corpo da tabela-->
+                    <tr>                                <!-- Para iniciar uma fazer a linha-->
+                        <td>1</td>                      <!-- "TD"coloca os produtos em linha abaixo de cada item na coluna-->
+                        <td>Notebook</td>
+                        <td>R$ 4,500</td>
+                        <td>10</td>
+                    </tr>                               <!-- Para finalizar uma  linha-->
+                    <tr>                                <!-- Para iniciar uma linha-->
+                        <td>2</td>
+                        <td>Mause</td>
+                        <td>R$ 90,00</td>
+                        <td>10</td>
+                    </tr>                               <!-- Para finalizar a linha-->
+                    <tr>                                <!-- Para iniciar uma linha-->
+                        <td>3</td>
+                        <td>Teclado</td>
+                        <td>R$ 150,00</td>
+                        <td>10</td>
+                    </tr>                               <!-- Para fazer a linha-->
+
+                    
+                </tbody>                                <!-- finaliza o corpo da tabela-->
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Total de Produtos</td>
+                            <td>R$ 4,740,00</td>
+                            <td>30</td>
+                        </tr>
+                    </tfoot>
+    </table>                                            <!--Parte final da tabela-->
+</body>
+</html>
