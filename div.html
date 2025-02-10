@@ -4,6 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cartão de Perfil</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: rgba(21, 200, 231, 0.377);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+
+        }
+        .card{
+            background: rgb(202, 124, 96);
+            padding: 50px; 
+            border-radius: 30px;
+            box-shadow: 0 0 180px rgba(0, 181, 212, 0.377);
+            text-align: center;
+            width: 300px;
+        }
+        .profile-img{
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+            border-radius: 50px;
+        }
+        .name{
+            font-size: 20px;
+            font-weight: 950px;
+            padding-top: 10px;
+        }
+        #bio{
+            color: aqua;
+            font-size: 14px;
+            margin: 10px 10px 0px;
+        }
+        .social-links{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+         }
+         .social-links a{
+            text-decoration: nome;
+            color: chartreuse;
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-size: 14px;
+
+        }
+
+        .social-links a:hover{
+            background: blue;
+
+        }
+
+    </style>
 </head>
 <body>
    <div class="card">
@@ -13,7 +68,7 @@
         class="profile-img"
         >
         <div class="name"> Alex Garcia  </div>
-        <div id="bio"> Aluno aprendendo sobre tecnologia </div>
+        <div id="bio"> Aluno | Aprendendo sobre tecnologia </div>
         <div class="social-links">
             <a href=" GitHub "> GitHub</a>
             <a href="Instagran"> Instagran</a>
