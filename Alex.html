@@ -1,11 +1,77 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt -BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Família</title>
+    <title>Curriculum vitae</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: green;
+            display: flex;
+            justify-content: left;
+           align-items: baseline;
+            height: 100vh;
+            margin: 0;                                          /* meche com todo o corpo da págia */
+
+        }/* */
+        /*.card{
+            background: rgba(253, 7, 7, 0.377);
+            padding: 50px; 
+            border-radius: 90px;
+            box-shadow: 90 0 180px rgba(0, 181, 212, 0.377);
+            text-align: center;
+            width: 300px;
+        }*/                                                     /* essa coloca um card sob a foto e pode ser cor e formas diferentes*/
+        .profile-img{
+            width: 200px;
+            height: 200px;
+           /* border: 1px solid red;*/
+            border-radius: 50px;
+        }                                                       /*meche com a configuração da imagem do perfil */
+        .name{
+            font-size: 20px;
+            font-weight: 950px;
+            padding-top: 10px;
+        }                                                       /* meche com a configuração do nome do perfil*/
+        #bio{
+            color: aqua;
+            font-size: 14px;
+            margin: 10px 10px 0px;
+        }                                                       /* meche com tudo vai no perfil*/
+        .social-links{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+         }
+         .social-links a{
+            text-decoration: nome;
+            color: yellow;
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-size: 14px;
+        }                                                          /* meche com onde vai os links*/
+
+        .social-links a:hover{
+            background: blue;
+        }                                                           /* meche com as cores que sai sobre os links quando passa por cima dos links*//
+
+    </style>
 </head>
-<body>
-    
+<body><!-- corpo da pagina-->
+   <div class="card">
+     <img 
+        src="https://avatar.iran.liara.run/public/37" 
+        alt="Foto de Perfil de um Rapaz de cor parda, com barba e cabelo preto e camiseta roxa " 
+        class="profile-img"
+        >
+        <div class="name"> Alex Garcia  </div>
+        <div id="bio"> Aluno | Aprendendo sobre tecnologia </div>
+        <div class="social-links">
+            <a href=" GitHub "> GitHub</a>
+            <a href="Instagran"> Instagran</a>
+        </div>
+
+    </div> 
 </body>
 </html>
